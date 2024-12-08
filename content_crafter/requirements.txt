@@ -1,3 +1,4 @@
 streamlit==1.40.2
 langflow==1.0.18
 pyttsx3==2.98
+pywin32
