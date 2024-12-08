@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import streamlit as st
 from langflow.load import run_flow_from_json
-import pythoncom  # Required for COM initialization on Windows
+# import pythoncom  # Required for COM initialization on Windows
 import pyttsx3
 import tempfile
 import os
@@ -97,7 +97,7 @@ def ask_ai(topic):
 
 def text_to_speech(text):
     # Initialize COM for the current thread
-    pythoncom.CoInitialize()
+    # pythoncom.CoInitialize()
     # Initialize the pyttsx3 engine
     engine = pyttsx3.init()
     
