@@ -14,7 +14,7 @@ import os
 st.set_page_config(page_title="ContentCrafter", page_icon="📜")
 # Load CSS
 def load_css():
-    with open("styles.css") as f:
+    with open("content_crafter/styles.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load the CSS styles
@@ -23,7 +23,7 @@ load_css()
 def about_page():
     col1, col2 = st.columns([1, 5])  # Adjust column width proportions as needed
     with col1:
-        st.image("static/logo_2.png", width=500)  # Replace with your logo file and adjust width
+        st.image("content_crafter/static/logo_2.png", width=500)  # Replace with your logo file and adjust width
     with col2:
         st.title("ContentCrafter - About & How to Use")
     st.divider()
@@ -114,7 +114,7 @@ def text_to_speech(text):
 # Run the Streamlit app
 if __name__ == "__main__":
     st.sidebar.title("Welcome")
-    st.sidebar.image("static/logo_2.png", caption="Blogging Made Effortless", use_container_width=True)  # Add logo to sidebar
+    st.sidebar.image("content_crafter/static/logo_2.png", caption="Blogging Made Effortless", use_container_width=True)  # Add logo to sidebar
     page = st.sidebar.radio("Choose a page", ["Home", "About"])
     if page == "Home":
         col1, col2 = st.columns([1, 5])
