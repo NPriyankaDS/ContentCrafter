@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    background-color: lightseagreen; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #333; /* Darker text color for headers */
+    text-align: center; /* Center align headers */
+}
+
+/* Input styling */
+.stTextInput {
+    border: 2px solid #007bff; /* Blue border for text inputs */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the input */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Button styling */
+.stButton {
+    background-color: #007bff; /* Blue background for buttons */
+    color: black; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.stButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Output text styling */
+.stMarkdown {
+    background-color: #ffffff; /* White background for output */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the output */
+}
+
+/* Image styling */
+.stImage {
+    border-radius: 5px; /* Rounded corners for images */
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Center align footer */
+    padding: 20px; /* Padding for footer */
+    color: #777; /* Lighter text color */
+}
