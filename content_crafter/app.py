@@ -89,7 +89,7 @@ def ask_ai(topic):
         }
     }
 
-    result = run_flow_from_json(flow="Blog_creation.json",
+    result = run_flow_from_json(flow="content_crafter/Blog_creation.json",
                                 input_value="message",
                                 fallback_to_env_vars=True, # False by default
                                 tweaks=TWEAKS)
