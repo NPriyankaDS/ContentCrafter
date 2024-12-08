@@ -119,7 +119,7 @@ if __name__ == "__main__":
     if page == "Home":
         col1, col2 = st.columns([1, 5])
         with col1:
-            st.image("static/logo_2.png", width=500)
+            st.image("content_crafter/static/logo_2.png", width=500)
         with col2:
             st.title("ContentCrafter")
             st.markdown("<h3 style='text-align: center;'>Blogging Made Effortless</h3>", unsafe_allow_html=True)
