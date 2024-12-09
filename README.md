@@ -1,5 +1,5 @@
 # ContentCrafter
-Streamlit app for blog post generation using langlfow
+Streamlit app for blog post generation using langflow using multi-agent systems using crewAI Sequential task agent components. 
 
 ## 📃Introduction
     ContentCrafter is an AI-powered tool developed using langflow that helps you create high-quality blog content effortlessly. 
